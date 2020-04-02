@@ -1,0 +1,17 @@
+{
+  "name": "Principal-Bot",
+  "version": "1.0.0",
+  "description": "Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michiel Mulders",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.3",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
